@@ -18,7 +18,7 @@ export default function EditScreenInfo({ }: { path: string }) {
         <Text
           style={styles.getStartedText} lightColor={Colors.light.tint}
           darkColor="rgba(255,255,255,0.8)">    
-          Members Log In
+          VIP Prices Click Here
         </Text>
         </TouchableOpacity>
 
