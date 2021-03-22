@@ -3,49 +3,49 @@ import React from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 
 import Colors from '../constants/Colors';
-import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 
-export default function EditScreenInfo({ path }: { path: string }) {
+export default function EditScreenInfo({ }: { path: string }) {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-        <Text
-          style={styles.getStartedText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
-          Open up the code for this screen:
-        </Text>
-
         <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
           darkColor="rgba(255,255,255,0.05)"
           lightColor="rgba(0,0,0,0.05)">
-          <MonoText>{path}</MonoText>
         </View>
-
+        <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
         <Text
-          style={styles.getStartedText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
-          Change any of the text, save the file, and your app will automatically update.
+          style={styles.getStartedText} lightColor={Colors.light.tint}
+          darkColor="rgba(255,255,255,0.8)">    
+          Members Log In
         </Text>
+        </TouchableOpacity>
+
       </View>
 
-      <View style={styles.helpContainer}>
-        <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
+      {/* <View style={styles.helpContainer}>
+        <TouchableOpacity onPress={appointeddOnpress} style={styles.helpLink}>
           <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
+           Non Members Click To Book 
           </Text>
         </TouchableOpacity>
-      </View>
+      </View> */}
+      {/* <Button></Button> */}
+
     </View>
   );
 }
 
-function handleHelpPress() {
+// function appointeddOnpress() {
+//   WebBrowser.openBrowserAsync(
+//     'https://dime-studios.appointedd.com/'
+//   );
+// }
+
+function appointeddMemberOnpress() {
   WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
+    'https://dime-studios.appointedd.com/app/6057da058b910b07154d2a16'
   );
 }
 
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   },
   getStartedText: {
     fontSize: 17,
-    lineHeight: 24,
+    lineHeight: 20,
     textAlign: 'center',
   },
   helpContainer: {
