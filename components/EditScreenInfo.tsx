@@ -90,8 +90,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   getStartedText: {
+    marginTop: -220,
     fontSize: 17,
-    lineHeight: 20,
+    lineHeight: 200,
     textAlign: 'center',
   },
   helpContainer: {

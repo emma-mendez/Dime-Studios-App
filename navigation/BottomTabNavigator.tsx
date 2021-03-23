@@ -52,7 +52,7 @@ function TabOneNavigator() {
       <TabOneStack.Screen
         name="TabOneScreen"
         component={TabOneScreen}
-        options={{ headerTitle: 'Members Only' }}
+        options={{ headerTitle: 'Dime Studios Home' }}
       />
     </TabOneStack.Navigator>
   );
