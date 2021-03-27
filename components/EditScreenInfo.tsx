@@ -1,6 +1,7 @@
 import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
+import { shouldUseActivityState } from 'react-native-screens';
 
 import Colors from '../constants/Colors';
 import { Text, View } from './Themed';
@@ -21,18 +22,25 @@ export default function EditScreenInfo({ }: { path: string }) {
           BOOK NOW
         </Text>
         </TouchableOpacity>
-
+        {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
+        <Text
+          style={styles.servicesText} >    
+          VIEW DANCE STUDIO
+        </Text>
+        </TouchableOpacity> */}
+        {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
+        <Text
+          style={styles.servicesText}>    
+        VIEW PHOTOGRAPHY           
+        </Text>
+        </TouchableOpacity> */}
+         {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
+        <Text
+          style={styles.servicesText} >    
+          VIEW RECORDING STUDIO
+        </Text>
+        </TouchableOpacity> */}
       </View>
-
-      {/* <View style={styles.helpContainer}>
-        <TouchableOpacity onPress={appointeddOnpress} style={styles.helpLink}>
-          <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-           Non Members Click To Book 
-          </Text>
-        </TouchableOpacity>
-      </View> */}
-      {/* <Button></Button> */}
-
     </View>
   );
 }
@@ -90,7 +98,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   getStartedText: {
-    marginTop: -220,
+    marginTop: -190,
+    fontSize: 17,
+    lineHeight: 200,
+    textAlign: 'center',
+  }, 
+  servicesText: {
+    marginTop: -190,
     fontSize: 17,
     lineHeight: 200,
     textAlign: 'center',
