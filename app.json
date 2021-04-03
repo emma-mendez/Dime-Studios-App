@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Dime VIP App",
-    "slug": "dime-vip-app",
+    "slug": "dime-members-app",
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
