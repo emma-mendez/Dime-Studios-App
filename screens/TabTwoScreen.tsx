@@ -20,45 +20,45 @@ const TEXT_DURATION = DURATION * 0.8;
 const quotes = [
   {
     quote:
-      'For the things we have to learn before we can do them, we learn by doing them.',
-    author: 'Aristotle, The Nicomachean Ethics',
+      'Welcome To DIME STUDIOS.',
+    author: 'Dime Ladies',
   },
   {
-    quote: 'The fastest way to build an app.',
-    author: 'The Expo Team',
-  },
-  {
-    quote:
-      'The greatest glory in living lies not in never falling, but in rising every time we fall.',
-    author: 'Nelson Mandela',
-  },
-  {
-    quote: 'The way to get started is to quit talking and begin doing.',
-    author: 'Walt Disney',
+    quote: 'Built for Dance, Recording, Photography, Band Rehearsal and so much more.',
+    author: 'Dime Ladies',
   },
   {
     quote:
-      "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
-    author: 'Steve Jobs',
+      'DANCE',
+    author: 'MIRRORS BUILT FOR DANCE CLASSES +',
+  },
+  {
+    quote: 'RECORDING',
+    author: 'BUILD YOUR CLIENTLE OR RECORD YOURSELF',
   },
   {
     quote:
-      'If life were predictable it would cease to be life, and be without flavor.',
-    author: 'Eleanor Roosevelt',
+      'PHOTOGRAPHY',
+    author: 'WHITE & GREEN SCREENS (opt Lights0',
   },
   {
     quote:
-      "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
-    author: 'Oprah Winfrey',
+      'VENUE HIRE',
+    author: 'Meetings, Acting, Space for Whatever',
   },
   {
     quote:
-      "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
-    author: 'James Cameron',
+      'EVENTS',
+    author: 'Birthday Parties, Small Concert, Baby Showers, Pop Up Events',
   },
   {
-    quote: "Life is what happens when you're busy making other plans.",
-    author: 'John Lennon',
+    quote:
+      'BUSINESS START UP',
+    author: 'We will help you keep you overheads low when starting up your creative business',
+  },
+  {
+    quote: "DANCE AND INSPIRATIONAL MUSICAL ENVIRONMENT",
+    author: 'EMMA & KADI DIME LADIES',
   },
 ];
 
