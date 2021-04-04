@@ -171,11 +171,11 @@ prev nextBgColor === next bgColor
 
 const colors = [
   {
-    initialBgColor: 'goldenrod',
-    bgColor: '#222',
-    nextBgColor: '#222',
-  },
-  {
+  //   initialBgColor: 'goldenrod',
+  //   bgColor: '#222',
+  //   nextBgColor: '#222',
+  // },
+  // {
     initialBgColor: 'goldenrod',
     bgColor: '#222',
     nextBgColor: 'yellowgreen',
@@ -261,7 +261,7 @@ export default function App() {
               (i) => i / 2
             ),
             outputRange: [...Array(quotes.length * 2 + 1).keys()].map((i) =>
-              i % 2 === 0 ? 1 : 0
+              i % 2 === 0 ? 1 : 1
             ),
           }),
         }}
