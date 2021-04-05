@@ -24,7 +24,7 @@ const quotes = [
     author: 'Dime Ladies',
   },
   {
-    quote: 'Built for Dance, Recording, Photography, Band Rehearsal and so much more.',
+    quote: 'Business Start Up`s, Recording, Photography, Band Rehearsal and so much more...',
     author: 'Dime Ladies',
   },
   {
@@ -279,7 +279,7 @@ export default function App() {
                   styles.paragraph,
                   {
                     color: colors[i].nextBgColor,
-                    fontSize: 10,
+                    fontSize: 20,
                     fontWeight: 'normal',
                     textAlign: 'right',
                     opacity: 0.8,
@@ -306,8 +306,9 @@ const styles = StyleSheet.create({
     paddingBottom: 50,
   },
   paragraph: {
-    margin: 12,
-    fontSize: 24,
+    top: -65,
+    margin: 10,
+    fontSize: 40,
     // fontWeight: 'bold',
     textAlign: 'center',
     fontFamily: 'Menlo',

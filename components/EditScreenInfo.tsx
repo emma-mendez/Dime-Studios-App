@@ -22,34 +22,11 @@ export default function EditScreenInfo({ }: { path: string }) {
           BOOK NOW
         </Text>
         </TouchableOpacity>
-        {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
-        <Text
-          style={styles.servicesText} >    
-          VIEW DANCE STUDIO
-        </Text>
-        </TouchableOpacity> */}
-        {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
-        <Text
-          style={styles.servicesText}>    
-        VIEW PHOTOGRAPHY           
-        </Text>
-        </TouchableOpacity> */}
-         {/* <TouchableOpacity onPress={appointeddMemberOnpress} style={styles.helpLink}>
-        <Text
-          style={styles.servicesText} >    
-          VIEW RECORDING STUDIO
-        </Text>
-        </TouchableOpacity> */}
       </View>
     </View>
   );
 }
 
-// function appointeddOnpress() {
-//   WebBrowser.openBrowserAsync(
-//     'https://dime-studios.appointedd.com/'
-//   );
-// }
 
 function appointeddMemberOnpress() {
   WebBrowser.openBrowserAsync(
