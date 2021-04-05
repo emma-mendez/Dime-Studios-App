@@ -171,11 +171,11 @@ prev nextBgColor === next bgColor
 
 const colors = [
   {
-  //   initialBgColor: 'goldenrod',
-  //   bgColor: '#222',
-  //   nextBgColor: '#222',
-  // },
-  // {
+    initialBgColor: 'white',
+    bgColor: 'yellowgreen',
+    nextBgColor: 'black',
+  },
+  {
     initialBgColor: '#222',
     bgColor: 'yellowgreen',
     nextBgColor: 'goldenrod',
