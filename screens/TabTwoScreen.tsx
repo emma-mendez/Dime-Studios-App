@@ -176,9 +176,9 @@ const colors = [
   //   nextBgColor: '#222',
   // },
   // {
-    initialBgColor: 'goldenrod',
-    bgColor: '#222',
-    nextBgColor: 'yellowgreen',
+    initialBgColor: '#222',
+    bgColor: 'yellowgreen',
+    nextBgColor: 'goldenrod',
   },
   {
     initialBgColor: '#222',
@@ -193,11 +193,11 @@ const colors = [
   {
     initialBgColor: 'midnightblue',
     bgColor: 'turquoise',
-    nextBgColor: 'goldenrod',
+    nextBgColor: 'pink',
   },
   {
     initialBgColor: 'turquoise',
-    bgColor: 'goldenrod',
+    bgColor: 'pink',
     nextBgColor: '#222',
   },
 ];

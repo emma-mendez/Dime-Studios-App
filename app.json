@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Dime VIP App",
-    "slug": "dime-members-app",
+    "name": "Kadi' Dime App",
+    "slug": "prototype-app",
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,6 @@
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
-    "description": ""
+    "description": "First Working Prototype for Dime Studios App"
   }
 }
