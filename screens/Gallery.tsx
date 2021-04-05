@@ -154,7 +154,6 @@ const Pagination = ({ scrollX }) => {
           styles.paginationIndicator,
           {
             position: 'absolute',
-            // backgroundColor: 'red',
             transform: [{ translateX }],
           },
         ]}
@@ -212,14 +211,18 @@ const styles = StyleSheet.create({
     width,
     height,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
+    borderRadius: -500,
+    display: "flex",
+
+    
+
   },
   imageStyle: {
     width: width * 0.75,
     height: width * 0.95,
     resizeMode: 'contain',
     flex: 1,
-    justifyContent: "space-around",
 
   },
   textContainer: {
