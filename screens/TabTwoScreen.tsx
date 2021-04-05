@@ -24,7 +24,7 @@ const quotes = [
     author: 'Dime Ladies',
   },
   {
-    quote: 'Business Start Up`s, Recording, Photography, Band Rehearsal and so much more...',
+    quote: 'We Support... Business Start Up`s, Enterprise, Creative Entrepreneurs.',
     author: 'Dime Ladies',
   },
   {
@@ -153,7 +153,7 @@ const Circle = ({ onPress, index, quotes, animatedValue, animatedValue2 }) => {
               },
             ]}
           >
-            <AnimatedAntDesign name='arrowright' size={28} color={'white'} />
+            <AnimatedAntDesign name='arrowright' size={38} color={'white'} />
           </Animated.View>
         </TouchableOpacity>
       </Animated.View>
@@ -178,7 +178,7 @@ const colors = [
   {
     initialBgColor: '#222',
     bgColor: 'yellowgreen',
-    nextBgColor: 'goldenrod',
+    nextBgColor: '#FF6700',
   },
   {
     initialBgColor: '#222',
@@ -193,11 +193,11 @@ const colors = [
   {
     initialBgColor: 'midnightblue',
     bgColor: 'turquoise',
-    nextBgColor: 'pink',
+    nextBgColor: '#E754CA',
   },
   {
     initialBgColor: 'turquoise',
-    bgColor: 'pink',
+    bgColor: '#E754CA',
     nextBgColor: '#222',
   },
 ];
