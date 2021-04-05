@@ -1,6 +1,6 @@
 export default [
   {
-    type: 'Dance ',
+    type: 'Dance ... ',
     imageUri: require('../assets/dimeinside.jpg'),
     heading: 'Exercise & Move',
     description: 'For The Choreographers, Dancers and Excercise Fans',
@@ -8,7 +8,7 @@ export default [
     // color: '#9dcdfa',
   },
   {
-    type: 'Inspirational',
+    type: 'Inspirational...',
     imageUri: require('../assets/dimeinside.jpg'),
     heading: ' Photography',
     description: 'All Creatives Feel At Home',
@@ -16,7 +16,7 @@ export default [
     // color: '#db9efa',
   },
   {
-    type: 'Musical',
+    type: 'Musical...',
     imageUri: require('../assets/dimeinside.jpg'),
     heading: ' Band Rehearsal',
     description:
@@ -25,7 +25,7 @@ export default [
     // color: '#999',
   },
   {
-    type: 'Environment',
+    type: 'Environment.',
     imageUri: require('../assets/dimeinside.jpg'),
     heading: 'Recording',
     description:

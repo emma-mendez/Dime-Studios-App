@@ -216,9 +216,11 @@ const styles = StyleSheet.create({
   },
   imageStyle: {
     width: width * 0.75,
-    height: width * 0.75,
+    height: width * 0.95,
     resizeMode: 'contain',
     flex: 1,
+    justifyContent: "space-around",
+
   },
   textContainer: {
     alignItems: 'flex-start',
@@ -231,10 +233,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '800',
     letterSpacing: 2,
-    marginBottom: 5,
+    bottom: 20,
   },
   description: {
-    bottom: 100,
+    bottom: 123,
     color: '#ccc',
     fontWeight: '600',
     textAlign: 'left',
@@ -244,7 +246,7 @@ const styles = StyleSheet.create({
     lineHeight: 16 * 1.5,
   },
   logo: {
-    top: 420,
+    top: 430,
     opacity: 0.9,
     height: 300,
     width: LOGO_WIDTH,
@@ -267,23 +269,23 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     height: DOT_SIZE,
   },
-  // paginationDot: {
-  //   width: DOT_SIZE * 0.3,
-  //   height: DOT_SIZE * 0.3,
-  //   borderRadius: DOT_SIZE * 0.15,
-  // },
-  // paginationDotContainer: {
-  //   width: DOT_SIZE,
-  //   alignItems: 'center',
-  //   justifyContent: 'center',
-  // },
-  // paginationIndicator: {
-  //   width: DOT_SIZE,
-  //   height: DOT_SIZE,
-  //   borderRadius: DOT_SIZE / 2,
-  //   borderWidth: 2,
-  //   borderColor: '#ddd',
-  // },
+  paginationDot: {
+    width: DOT_SIZE * 0.3,
+    height: DOT_SIZE * 0.3,
+    borderRadius: DOT_SIZE * 0.15,
+  },
+  paginationDotContainer: {
+    width: DOT_SIZE,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  paginationIndicator: {
+    width: DOT_SIZE,
+    height: DOT_SIZE,
+    borderRadius: DOT_SIZE / 2,
+    borderWidth: 2,
+    borderColor: '#ddd',
+  },
   tickerContainer: {
     position: 'absolute',
     top: 40,
