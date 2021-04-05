@@ -60,7 +60,7 @@ function TabOneNavigator() {
       <TabOneStack.Screen
         name="TabOneScreen"
         component={TabOneScreen}
-        options={{ headerTitle: 'Dime Studios Home' }}
+        options={{ headerTitle: '' }}
       />
     </TabOneStack.Navigator>
   );
@@ -74,7 +74,7 @@ function TabTwoNavigator() {
       <TabTwoStack.Screen
         name="TabTwoScreen"
         component={TabTwoScreen}
-        options={{ headerTitle: 'Welcome' }}
+        options={{ headerTitle: '' }}
       />
     </TabTwoStack.Navigator>
   );
@@ -89,7 +89,7 @@ function TabThreeNavigator() {
       <TabTwoStack.Screen
         name="TabThreeScreen"
         component={Gallery}
-        options={{ headerTitle: 'Gallery' }}
+        options={{ headerTitle: '' }}
       />
     </TabThreeStack.Navigator>
   );
