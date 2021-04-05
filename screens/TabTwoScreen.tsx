@@ -39,7 +39,7 @@ const quotes = [
   {
     quote:
       'PHOTOGRAPHY',
-    author: 'WHITE & GREEN SCREENS (opt Lights0',
+    author: 'WHITE & GREEN SCREENS (opt Lights)',
   },
   {
     quote:
