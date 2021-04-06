@@ -9,7 +9,7 @@ export default [
   },
   {
     type: 'Inspirational...',
-    imageUri: require('../assets/dimeinside.jpg'),
+    imageUri: require('../assets/dimeanime.gif'),
     heading: ' Photography',
     description: 'All Creatives Feel At Home',
     key: 'second',
